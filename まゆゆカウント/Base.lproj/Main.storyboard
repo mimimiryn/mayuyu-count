@@ -1,25 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="まゆゆカウント" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="背景花.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Tua-yu-Dbr">
+                                <rect key="frame" x="-7" y="-6" width="327" height="584"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="まゆゆウインク.png" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-pb-ciQ">
+                                <rect key="frame" x="78" y="67" width="164" height="185"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="まゆゆ.png" translatesAutoresizingMaskIntoConstraints="NO" id="eli-Eq-uf9">
+                                <rect key="frame" x="77" y="67" width="164" height="185"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwN-Hb-nj8">
+                                <rect key="frame" x="231" y="157" width="84" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYx-0L-4Kw">
+                                <rect key="frame" x="36" y="375" width="248" height="49"/>
+                                <state key="normal" backgroundImage="おうえんするボタン.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="plus" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gPp-qz-dUc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゲージ５.png" translatesAutoresizingMaskIntoConstraints="NO" id="vY5-i0-ubo">
+                                <rect key="frame" x="66" y="299" width="180" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゲージ４.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Ip-jU-SIu">
+                                <rect key="frame" x="66" y="299" width="180" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゲージ３" translatesAutoresizingMaskIntoConstraints="NO" id="mpH-x6-S7e">
+                                <rect key="frame" x="66" y="299" width="180" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゲージ2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgo-e0-xRY">
+                                <rect key="frame" x="65" y="299" width="180" height="40"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="ゲージ１" translatesAutoresizingMaskIntoConstraints="NO" id="Mqw-Hl-lnn">
+                                <rect key="frame" x="65" y="299" width="180" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゲージ０.png" translatesAutoresizingMaskIntoConstraints="NO" id="hhM-Z0-frj">
+                                <rect key="frame" x="65" y="299" width="180" height="40"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="gage0" destination="hhM-Z0-frj" id="Ple-9u-Nj1"/>
+                        <outlet property="gage1" destination="Mqw-Hl-lnn" id="RIJ-5v-J9M"/>
+                        <outlet property="gage2" destination="cgo-e0-xRY" id="JFf-Ap-qDh"/>
+                        <outlet property="gage3" destination="mpH-x6-S7e" id="OD1-dJ-36o"/>
+                        <outlet property="gage4" destination="7Ip-jU-SIu" id="n8x-Xs-fIk"/>
+                        <outlet property="gage5" destination="vY5-i0-ubo" id="e75-XC-PVw"/>
+                        <outlet property="imageView" destination="eli-Eq-uf9" id="Doj-vY-mqd"/>
+                        <outlet property="label" destination="fwN-Hb-nj8" id="2Lb-ex-Zva"/>
+                        <outlet property="uink" destination="bKq-pb-ciQ" id="nRd-vq-2jR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="303" y="392"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="おうえんするボタン.png" width="337" height="60"/>
+        <image name="まゆゆ.png" width="409" height="463"/>
+        <image name="まゆゆウインク.png" width="406" height="472"/>
+        <image name="ゲージ2.png" width="366" height="73"/>
+        <image name="ゲージ０.png" width="366" height="73"/>
+        <image name="ゲージ１" width="366" height="73"/>
+        <image name="ゲージ３" width="366" height="73"/>
+        <image name="ゲージ４.png" width="366" height="73"/>
+        <image name="ゲージ５.png" width="366" height="73"/>
+        <image name="背景花.jpeg" width="218" height="291"/>
+    </resources>
 </document>

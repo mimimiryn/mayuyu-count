@@ -13,6 +13,17 @@
 		717D44571B21B716006934D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717D44561B21B716006934D9 /* Images.xcassets */; };
 		717D445A1B21B716006934D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717D44581B21B716006934D9 /* LaunchScreen.xib */; };
 		717D44661B21B716006934D9 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717D44651B21B716006934D9 /* _______Tests.swift */; };
+		717D44751B21B7CE006934D9 /* まゆゆ.png in Resources */ = {isa = PBXBuildFile; fileRef = 717D44731B21B7CE006934D9 /* まゆゆ.png */; };
+		717D44761B21B7CE006934D9 /* まゆゆウインク.png in Resources */ = {isa = PBXBuildFile; fileRef = 717D44741B21B7CE006934D9 /* まゆゆウインク.png */; };
+		717D44781B21BD0A006934D9 /* 背景.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 717D44771B21BD0A006934D9 /* 背景.jpeg */; };
+		717D447A1B21BEE3006934D9 /* おうえんするボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 717D44791B21BEE3006934D9 /* おうえんするボタン.png */; };
+		717D447C1B21BFF1006934D9 /* 背景花.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 717D447B1B21BFF1006934D9 /* 背景花.jpeg */; };
+		717D447E1B21D124006934D9 /* ゲージ１ in Resources */ = {isa = PBXBuildFile; fileRef = 717D447D1B21D124006934D9 /* ゲージ１ */; };
+		718F17B31B22788600574034 /* ゲージ2.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F17B21B22788600574034 /* ゲージ2.png */; };
+		718F17B51B22789000574034 /* ゲージ０.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F17B41B22789000574034 /* ゲージ０.png */; };
+		7198DFA71B2274CE008E2FB0 /* ゲージ３ in Resources */ = {isa = PBXBuildFile; fileRef = 7198DFA61B2274CE008E2FB0 /* ゲージ３ */; };
+		7198DFA91B2274DD008E2FB0 /* ゲージ４.png in Resources */ = {isa = PBXBuildFile; fileRef = 7198DFA81B2274DD008E2FB0 /* ゲージ４.png */; };
+		7198DFAB1B2274E6008E2FB0 /* ゲージ５.png in Resources */ = {isa = PBXBuildFile; fileRef = 7198DFAA1B2274E6008E2FB0 /* ゲージ５.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		717D445F1B21B716006934D9 /* まゆゆカウントTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "まゆゆカウントTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717D44641B21B716006934D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717D44651B21B716006934D9 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		717D44731B21B7CE006934D9 /* まゆゆ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まゆゆ.png"; sourceTree = "<group>"; };
+		717D44741B21B7CE006934D9 /* まゆゆウインク.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まゆゆウインク.png"; sourceTree = "<group>"; };
+		717D44771B21BD0A006934D9 /* 背景.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpeg"; sourceTree = "<group>"; };
+		717D44791B21BEE3006934D9 /* おうえんするボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おうえんするボタン.png"; sourceTree = "<group>"; };
+		717D447B1B21BFF1006934D9 /* 背景花.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景花.jpeg"; sourceTree = "<group>"; };
+		717D447D1B21D124006934D9 /* ゲージ１ */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゲージ１"; sourceTree = "<group>"; };
+		718F17B21B22788600574034 /* ゲージ2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲージ2.png"; sourceTree = "<group>"; };
+		718F17B41B22789000574034 /* ゲージ０.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲージ０.png"; sourceTree = "<group>"; };
+		7198DFA61B2274CE008E2FB0 /* ゲージ３ */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ゲージ３"; sourceTree = "<group>"; };
+		7198DFA81B2274DD008E2FB0 /* ゲージ４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲージ４.png"; sourceTree = "<group>"; };
+		7198DFAA1B2274E6008E2FB0 /* ゲージ５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲージ５.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,17 @@
 		717D444C1B21B716006934D9 /* まゆゆカウント */ = {
 			isa = PBXGroup;
 			children = (
+				718F17B41B22789000574034 /* ゲージ０.png */,
+				718F17B21B22788600574034 /* ゲージ2.png */,
+				7198DFAA1B2274E6008E2FB0 /* ゲージ５.png */,
+				7198DFA81B2274DD008E2FB0 /* ゲージ４.png */,
+				7198DFA61B2274CE008E2FB0 /* ゲージ３ */,
+				717D447D1B21D124006934D9 /* ゲージ１ */,
+				717D447B1B21BFF1006934D9 /* 背景花.jpeg */,
+				717D44791B21BEE3006934D9 /* おうえんするボタン.png */,
+				717D44771B21BD0A006934D9 /* 背景.jpeg */,
+				717D44731B21B7CE006934D9 /* まゆゆ.png */,
+				717D44741B21B7CE006934D9 /* まゆゆウインク.png */,
 				717D444F1B21B716006934D9 /* AppDelegate.swift */,
 				717D44511B21B716006934D9 /* ViewController.swift */,
 				717D44531B21B716006934D9 /* Main.storyboard */,
@@ -192,9 +225,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717D447C1B21BFF1006934D9 /* 背景花.jpeg in Resources */,
+				717D44781B21BD0A006934D9 /* 背景.jpeg in Resources */,
+				718F17B31B22788600574034 /* ゲージ2.png in Resources */,
+				717D447E1B21D124006934D9 /* ゲージ１ in Resources */,
+				717D44761B21B7CE006934D9 /* まゆゆウインク.png in Resources */,
+				717D44751B21B7CE006934D9 /* まゆゆ.png in Resources */,
 				717D44551B21B716006934D9 /* Main.storyboard in Resources */,
 				717D445A1B21B716006934D9 /* LaunchScreen.xib in Resources */,
+				7198DFA71B2274CE008E2FB0 /* ゲージ３ in Resources */,
+				718F17B51B22789000574034 /* ゲージ０.png in Resources */,
+				717D447A1B21BEE3006934D9 /* おうえんするボタン.png in Resources */,
+				7198DFAB1B2274E6008E2FB0 /* ゲージ５.png in Resources */,
 				717D44571B21B716006934D9 /* Images.xcassets in Resources */,
+				7198DFA91B2274DD008E2FB0 /* ゲージ４.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +453,7 @@
 				717D446B1B21B716006934D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717D446C1B21B716006934D9 /* Build configuration list for PBXNativeTarget "まゆゆカウントTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				717D446E1B21B716006934D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
